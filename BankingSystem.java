@@ -40,7 +40,9 @@ public class BankingSystem {
         if(acc.withdraw(withdrawAmt)){
             System.out.println(acc.balance);
         }
+        else{
        System.out.println("insufficient balance");
+        }
        sc.close();
     }
 }
